@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+.container {
+    margin: 15vh auto;
+    height: 70vh;
+    width: 70vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.item1 {
+    background-color: blue;
+    grid-row: 1/5;
+    grid-column: 1/3;
+}
+
+.item2 {
+    background-color: aquamarine;
+    grid-row: 1/3;
+    grid-column: 3/5;
+}
+
+.item3 {
+    background-color: blueviolet;
+    grid-row: 3/5;
+    grid-column: 3/5;
+}
+
+
+.foto-messi {
+    width: 100%;
+    height: 100%;
+}
+
+.foto-neymar{
+ width: 100%; 
+ height: 100%;
+}
+
+.foto-cristiano{
+    width: 100%;
+    height: 100%;
+}
+
+.titulo{
+    text-align: center;
+    
+}
+
+
+.area{
+    height: 80vh;
+    width: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: end;
+    justify-items: stretch;
+}
+
+.item{
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+}
